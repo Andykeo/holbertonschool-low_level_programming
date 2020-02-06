@@ -1,10 +1,7 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
 /**
- * main - prints use write
- * Description: Prints a string use C system call
- * Return: 1
+ * main - use if and else
+ * Description: Prints a int random
+ * Return: 0
  */
 int main(void)
 {
@@ -16,10 +13,10 @@ int main(void)
 	{
 		printf("%i is positive\n", n);
 	}
-	if else(n == 0)
-		{
-			printf("%i is zero\n", n);
-		}
+	else if (n == 0)
+	{
+		printf("%i is zero\n", n);
+	}
 	else
 	{
 		printf("%i is negative\n", n);
