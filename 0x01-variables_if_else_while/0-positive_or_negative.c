@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
  * main - use if and else
  * Description: Prints a int random
@@ -17,7 +20,7 @@ int main(void)
 	{
 		printf("%i is zero\n", n);
 	}
-	else
+	else if (n < 0)
 	{
 		printf("%i is negative\n", n);
 	}
