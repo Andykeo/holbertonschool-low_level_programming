@@ -12,18 +12,18 @@ int main(void)
 
 	while (n <= '9' && d < '9')
 	{
-	for (n = d + 1; n <= '9'; n++)
+		for (n = d + 1; n <= '9'; n++)
 		{
 			if (n != d)
 			{
-			putchar(d);
-			putchar(n);
+				putchar(d);
+				putchar(n);
 			}
 			if (n != '9' || d != '8')
-                        {
-                                putchar(',');
-                                putchar(' ');
-                        }
+			{
+				putchar(',');
+				putchar(' ');
+			}
 			if (n == '9')
 			{
 				d++;
