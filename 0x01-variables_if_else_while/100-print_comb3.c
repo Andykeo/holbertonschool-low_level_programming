@@ -9,6 +9,7 @@ int main(void)
 {
 	int n = '1';
 	int d = '0';
+
 	while (n <= '9' && d < '9')
 	{
 	for (n = d + 1; n <= '9'; n++)
